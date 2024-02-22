@@ -54,13 +54,13 @@ const Hero = () => {
               </p>
             </div>
           </div>
-        </div>
-        <div className="flex items-end px-20 sm:justify-center ">
-          <div className="flex items-center gap-3  absolute bottom-10">
-            <div className="animate-bounce">
-              <FontAwesomeIcon icon={faArrowDown} size="lg" />
+          <div className="flex items-end sm:justify-center ">
+            <div className="flex items-center gap-3  absolute bottom-10">
+              <div className="animate-bounce">
+                <FontAwesomeIcon icon={faArrowDown} size="lg" />
+              </div>
+              <p className="text-sm font-medium">Scroll</p>
             </div>
-            <p className="text-sm font-medium">Scroll</p>
           </div>
         </div>
       </div>
