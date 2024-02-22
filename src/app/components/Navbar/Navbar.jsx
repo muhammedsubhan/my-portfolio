@@ -6,7 +6,7 @@ import SideDrawer from "../Drawer/SideDrawer";
 const Navbar = () => {
   return (
     <>
-      <div className="py-6 px-20 lg:px-20 md:flex md:items-center md:justify-center sm:px-10 sm:justify-start">
+      <div className="py-6 px-20 lg:px-20 md:flex md:items-center md:justify-center sm:px-10 sm:justify-start ">
         <div className="hidden sm:flex ">
           <SideDrawer />
         </div>
