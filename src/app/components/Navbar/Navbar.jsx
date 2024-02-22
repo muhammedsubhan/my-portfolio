@@ -1,11 +1,16 @@
 import Link from "next/link";
 import React from "react";
 
+import SideDrawer from "../Drawer/SideDrawer";
+
 const Navbar = () => {
   return (
     <>
-      <div className="bg-black text-white py-6 px-60">
-        <ul className="flex space-x-20 items-center">
+      <div className="py-6 px-20 lg:px-20 md:flex md:items-center md:justify-center sm:px-10 sm:justify-start">
+        <div className="hidden sm:flex ">
+          <SideDrawer />
+        </div>
+        <ul className="flex gap-16 items-center md:gap-10 sm:hidden font-medium">
           <li>
             <Link href="#">Home</Link>
           </li>
