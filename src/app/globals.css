@@ -2,6 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .main-container {
+/* center the whole Page  */
+.centered-container {
   max-width: 1600px;
-} */
+  margin: 0 auto;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  /* height: 100vh; */
+}
+
+.bg-image {
+  background-image: url("../../public/images/landing-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.active {
+  background-image: url("../../public/images/linkActiveBackground.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  min-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f44336;
+  margin-left: "12px";
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1.5px white;
+  -webkit-text-fill-color: transparent;
+}
+
+.active-link {
+  color: #f44336;
+}

@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+
 import "./globals.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { ChakraProvider } from "@chakra-ui/react";

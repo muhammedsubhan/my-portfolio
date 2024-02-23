@@ -1,12 +1,15 @@
 import React from "react";
-import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
+import About from "./components/About/About";
 
 const Home = () => {
   return (
     <>
-      <div className="main-container">
-        <Hero />
+      <div className="centered-container">
+        <div className="bg-image">
+          <Hero />
+          <About />
+        </div>
       </div>
     </>
   );
