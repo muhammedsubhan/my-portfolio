@@ -11,7 +11,7 @@ const Home = () => {
           <Hero />
           <About />
         </div>
-        <div className="bg-image-2 ">
+        <div className="bg-image-2 md:bg-none">
           <Experience />
         </div>
       </div>
