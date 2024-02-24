@@ -1,5 +1,7 @@
 import React from "react";
 import TimeLine from "../TimeLine/TimeLine";
+import arrowDown from "../../../../public/arrow.svg";
+import Image from "next/image";
 
 const Experience = () => {
   const experienceData = [
@@ -45,10 +47,7 @@ const Experience = () => {
   ];
   return (
     <>
-      <section
-        id="experience"
-        className="py-20 px-20 md:px-10 sm:px-8 md:bg-none"
-      >
+      <div id="experience" className="py-20 px-20 md:px-10 sm:px-8 md:bg-none">
         <div className="flex flex-col gap-10 ">
           <h1 className="text-pw-orange text-3xl font-bold sm:text-2xl xs:text-xl">
             Over 1+ years experience.
@@ -60,7 +59,15 @@ const Experience = () => {
             ))}
           </div>
         </div>
-      </section>
+      </div>
+      <div className="px-10 flex gap-3 items-center md:px-3">
+        <Image
+          src={arrowDown}
+          alt="arrow-icon-down"
+          className="animate-bounce"
+        />
+        <p className="text-sm font-medium">Scroll</p>
+      </div>
     </>
   );
 };
