@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+}
+
 /* center the whole Page  */
 .centered-container {
   max-width: 1600px;
@@ -17,15 +22,16 @@
   background-image: url("../../public/images/landing-bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: left;
 }
 
 .active {
   background-image: url("../../public/images/linkActiveBackground.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 28px;
   height: 100px;
-  min-width: 150px;
+  min-width: 170px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,4 +46,12 @@
 
 .active-link {
   color: #f44336;
+}
+
+.bg-image-2 {
+  background-image: url("../../public/images/experienceBackground.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 1800px;
 }

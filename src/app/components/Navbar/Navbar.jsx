@@ -37,14 +37,14 @@ const Navbar = () => {
   return (
     <>
       <div
-        className={`fixed z-[999] w-full py-[12px]  px-20 lg:px-20 md:flex md:items-center md:justify-center sm:px-10 sm:justify-start transition-all duration-300 ${
+        className={`fixed z-[999] w-full py-[12px]  px-20 lg:px-0 md:flex md:items-center md:justify-center sm:px-10 sm:justify-start transition-all duration-300 ${
           isScrolled ? "bg-pw-blue" : ""
         }`}
       >
         <div className="hidden sm:flex">
           <SideDrawer />
         </div>
-        <ul className="flex gap-12 text-pw-grey items-center text-xl md:gap-10 sm:hidden font-medium">
+        <ul className="flex gap-12  text-pw-grey items-center text-xl md:gap-8 md:text-base sm:hidden font-medium">
           <li
             onClick={() => handleClick("home")}
             className={

@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
+import Experience from "./components/Experience/Experience";
 
 const Home = () => {
   return (
@@ -9,6 +10,9 @@ const Home = () => {
         <div className="bg-image">
           <Hero />
           <About />
+        </div>
+        <div className="bg-image-2 ">
+          <Experience />
         </div>
       </div>
     </>

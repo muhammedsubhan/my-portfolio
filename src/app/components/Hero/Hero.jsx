@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -8,6 +7,7 @@ import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import github from "../../../../public/github.svg";
 import linkedin from "../../../../public/linkedin.svg";
 import twitter from "../../../../public/twitter.svg";
+import Navbar from "../Navbar/Navbar";
 
 const Hero = () => {
   return (
