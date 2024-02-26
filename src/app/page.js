@@ -3,6 +3,7 @@ import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Experience from "./components/Experience/Experience";
 import Skills from "./components/Skills/Skills";
+import Projects from "./components/Projects/Projects";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <div className="bg-image-2 md:bg-none">
           <Experience />
           <Skills />
+          <Projects />
         </div>
       </div>
     </>

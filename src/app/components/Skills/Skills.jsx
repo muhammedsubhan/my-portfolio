@@ -1,6 +1,7 @@
 import React from "react";
 import SkillList from "../SkillsList/SkillList";
-import Link from "next/link";
+import Image from "next/image";
+import arrowDown from "../../../../public/arrow.svg";
 
 const Skills = () => {
   const skillsContent = {
@@ -102,6 +103,14 @@ const Skills = () => {
           description={skillsContent.description}
           expertise={skillsContent.expertise}
         />
+        <div className="mt-20 flex gap-3 items-center md:px-3">
+          <Image
+            src={arrowDown}
+            alt="arrow-icon-down"
+            className="animate-bounce"
+          />
+          <p className="text-sm font-medium">Scroll</p>
+        </div>
       </div>
     </>
   );
