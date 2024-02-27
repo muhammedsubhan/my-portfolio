@@ -4,7 +4,6 @@ import { Disclosure, Transition } from "@headlessui/react";
 import arrowDown from "../../../../public/arrow.svg";
 import Image from "next/image";
 const TimeLine = ({ item }) => {
-  console.log(item);
   return (
     <>
       <div

@@ -115,3 +115,21 @@ export const projectsContent = {
     },
   ],
 };
+
+export const socialMediaProfileContent = [
+  {
+    name: "Github",
+    href: "https://github.com/muhammedsubhan",
+    icon: "/icons/github-filled.svg",
+  },
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/muhammad-subhan-917b62206/",
+    icon: "/icons/linkedin-with-circle.svg",
+  },
+  {
+    name: "Twitter",
+    href: "https://twitter.com",
+    icon: "/icons/twitter-circle-filled.svg",
+  },
+];
