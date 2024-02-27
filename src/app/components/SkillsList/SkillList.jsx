@@ -12,7 +12,7 @@ const SkillList = ({ title, description, expertise }) => {
           <div className="flex flex-col gap-10 lg:flex-row lg:gap-5  md:flex-col md:gap-16 lg:justify-between">
             <div className="flex flex-col gap-5 w-[650px] md:w-full md:text-center lg:w-full ">
               <h1 className="text-pw-orange text-3xl font-bold ">{title}</h1>
-              <p className="text-pw-blue text-2xl font-normal leading-normal ">
+              <p className="text-pw-blue text-2xl font-normal leading-normal lg:text-xl sm:text-base">
                 {description}
               </p>
             </div>

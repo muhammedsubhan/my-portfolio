@@ -18,10 +18,27 @@ const Contact = () => {
     setIsOpen(true);
   }
 
-  const handleOnSubmit = (e) => {
-    openModal();
+  const handleOnSubmit = async (e) => {
     e.preventDefault();
-    console.log("hello");
+    startLoading();
+
+    const formData = new FormData(e.target);
+
+    try {
+      await fetch("https://formspree.io/f/xvoerrlb", {
+        method: "POST",
+        body: formData,
+        headers: {
+          Accept: "application/json",
+        },
+      });
+      e.target.reset();
+      openModal();
+    } catch (error) {
+      console.error("Error:", error);
+    }
+
+    stopLoading();
   };
   return (
     <>
@@ -39,6 +56,7 @@ const Contact = () => {
             </div>
             <form
               method="post"
+              action="https://formspree.io/muhammedsubhan692@gmail.com"
               onSubmit={handleOnSubmit}
               className="space-y-6  w-[500px] flex flex-col py-6 lg:py-3 lg:w-full"
             >

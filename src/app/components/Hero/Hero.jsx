@@ -37,6 +37,7 @@ const Hero = () => {
                     width={32}
                     priority
                     alt="github"
+                    className="w-[35px] h-[32px]"
                   />
                 </Link>
               </p>
@@ -52,6 +53,7 @@ const Hero = () => {
                     width={32}
                     priority
                     alt="linkedin"
+                    className="w-[35px] h-[32px]"
                   />
                 </Link>
               </p>
@@ -62,7 +64,8 @@ const Hero = () => {
                     height={35}
                     width={32}
                     priority
-                    alt="linkedin"
+                    alt="twitter"
+                    className="w-[35px] h-[32px]"
                   />
                 </Link>
               </p>

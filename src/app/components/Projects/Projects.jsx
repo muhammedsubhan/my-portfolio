@@ -66,16 +66,16 @@ const Projects = () => {
                             {/* Custom prev and next sliders */}
                             <Image
                               src={prevsliderHover}
-                              height={90}
-                              width={90}
+                              height="auto"
+                              width="auto"
                               onClick={() => handleSliderNavigation("prev")} // Go to previous slide on click
                               alt="Previous Slider"
                               className="cursor-pointer w-[90px] lg:w-[60px]"
                             />
                             <Image
                               src={nextsliderHover}
-                              height={90}
-                              width={90}
+                              height="auto"
+                              width="auto"
                               onClick={() => handleSliderNavigation("next")} // Go to next slide on click
                               alt="Next Slider"
                               className="cursor-pointer  w-[90px] lg:w-[60px]"

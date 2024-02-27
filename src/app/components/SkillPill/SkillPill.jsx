@@ -7,7 +7,7 @@ const SkillPill = ({ item }) => {
       <div key={item.id} className=" relative rounded p-3 hover:bg-gray-100">
         <Image
           src={item.icon}
-          className="mx-auto mb-2 animate-pulse"
+          className="mx-auto mb-2 animate-pulse w-[35px] h-[35px]"
           alt={item.name}
           width={40}
           height={25}

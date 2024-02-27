@@ -18,6 +18,9 @@ const Navbar = () => {
       }
     };
 
+    // Check initial scroll position on page load
+    handleScroll();
+
     window.addEventListener("scroll", handleScroll);
 
     return () => {
