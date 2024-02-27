@@ -9,7 +9,6 @@ import {
   DrawerContent,
   DrawerCloseButton,
   useDisclosure,
-  DrawerFooter,
 } from "@chakra-ui/react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -71,7 +70,7 @@ const SideDrawer = () => {
           <DrawerHeader>Menu</DrawerHeader>
 
           <DrawerBody>
-            <ul className="flex flex-col gap-10 items-center text-xl justify-center font-bold">
+            <ul className="flex flex-col gap-10 items-center text-xl justify-center font-bold text-pw-blue">
               <li
                 onClick={() => handleClick("home")}
                 className={activeLink === "home" ? "active-link" : ""}
@@ -110,16 +109,6 @@ const SideDrawer = () => {
               </li>
             </ul>
           </DrawerBody>
-          <DrawerFooter>
-            <iframe
-              src="https://giphy.com/embed/LAKj8u8DlhXG"
-              width="90"
-              height="90"
-              frameBorder="0"
-              allowFullScreen
-              className="pointer-events-none"
-            ></iframe>
-          </DrawerFooter>
         </DrawerContent>
       </Drawer>
     </>

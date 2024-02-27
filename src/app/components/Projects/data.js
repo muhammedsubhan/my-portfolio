@@ -3,79 +3,74 @@ export const projectsContent = {
   projects: [
     {
       id: 1,
-      title: "droidconKE2023ReactNative",
+      title: "Banni.es",
       description:
-        "React Native App for the 4th Android Developer Conference in Kenya - droidcon to be held in Nairobi from November 8th-10th 2023.",
+        "Banni is your one-stop digital furniture emporium. With a curated selection of modern and classic pieces, they make furnishing your space an effortless and stylish experience. Explore their website to find the perfect furniture to elevate your home decor",
       techStack: [
         {
           id: 2,
-          stack: "Expo ( React Native )",
+          stack: "React Js",
         },
         {
           id: 3,
-          stack: "React Query",
+          stack: "Tailwind CSS",
         },
         {
           id: 4,
-          stack: "React Testing Library",
+          stack: "Fake Store API",
         },
       ],
-      websiteLink:
-        "https://play.google.com/store/apps/details?id=com.ke.droidcon.reactnative&hl=en&gl=US",
-      githubLink: "https://github.com/droidconKE/droidconKE2023ReactNative",
+      websiteLink: "",
+      githubLink: "https://github.com/muhammedsubhan/banni.es",
       image: "images/droidconkereactnative.jpeg",
     },
     {
       id: 2,
-      title: "droidconKE2022ReactNative",
+      title: "MovieKyuu",
       description:
-        "React Native App for the 3rd Android Developer Conference in Kenya - droidcon to be held in Nairobi from November 16-18th 2022.",
+        "MovieKyuu is your go-to destination for the latest updates on upcoming movies. Stay in the know about upcoming releases, trailers, and more in the world of cinema",
       techStack: [
         {
           id: 2,
-          stack: "Expo ( React Native )",
+          stack: "React JS",
         },
         {
           id: 3,
-          stack: "Redux",
+          stack: "Tailwind CSS",
         },
         {
           id: 4,
-          stack: "RTKQuery",
+          stack: "TMDB API",
         },
       ],
-      websiteLink:
-        "https://play.google.com/store/apps/details?id=com.brianwachira.droidconKE2022ReactNative&hl=en&gl=US",
-      githubLink: "https://github.com/droidconKE/droidconKE2022ReactNative",
+      websiteLink: "",
+      githubLink: "https://github.com/muhammedsubhan/moviekyuu-website",
       image: "images/droidconkereactnative.jpeg",
     },
     {
       id: 3,
-      title: "Sales Reps App",
-      description: "An app for managing sales reps in pharmaceutical companies",
+      title: "Eyesome",
+      description:
+        "Eyesome is a stylish online platform specializing in eyewear. They offer a diverse range of fashionable glasses to cater to every taste and vision need, making it a go-to destination for trendy eyewear enthusiasts",
       techStack: [
         {
           id: 2,
-          stack: "Expo ( React Native )",
+          stack: "React JS",
         },
         {
           id: 3,
-          stack: "React Query",
-        },
-        {
-          id: 4,
-          stack: "React Testing Library",
+          stack: "Tailwind CSS",
         },
       ],
       websiteLink: "",
-      githubLink: "",
+      githubLink: "https://github.com/muhammedsubhan/eyesome-website",
       image: "images/droidconkereactnative.jpeg",
     },
     {
       id: 4,
-      title: "Restuarants App",
+      title: "Expense Tracker App",
       description:
-        "An app for ordering food from restuarants and managing the restuarants",
+        "Track your expenses effortlessly with our React Native expense tracker app, designed for seamless budget management on-the-go.",
       techStack: [
         {
           id: 1,
@@ -83,34 +78,40 @@ export const projectsContent = {
         },
         {
           id: 2,
-          stack: "React Testing Library",
+          stack: "Expo",
         },
       ],
       websiteLink: "",
-      githubLink: "",
+      githubLink:
+        "https://github.com/muhammedsubhan/expense-tracker-native-app",
       image: "images/droidconkereactnative.jpeg",
     },
     {
       id: 5,
-      title: "Church App",
+      title: "Capture & Track App",
       description:
-        "Coming up with IOS design guidelines for an existing android mobile application using Figma. Translating the design into a mobile app using Expo (React Native) and Typescript. Writing tests for the components used using testing library ( React Native ). Error tracking and monitoring using Sentry",
+        "Capture & Track simplifies image-based location logging. Seamlessly capture images and effortlessly tag them with precise location data, enhancing your tracking capabilities.",
       techStack: [
         {
           id: 1,
-          stack: "React Native",
+          stack: "Expo (React Native)",
         },
         {
           id: 2,
-          stack: "Figma",
+          stack: "Expo Permissions",
         },
         {
           id: 3,
-          stack: "Typescript",
+          stack: "Expo Camera",
+        },
+        {
+          id: 4,
+          stack: "Expo Location",
         },
       ],
       websiteLink: "",
-      githubLink: "",
+      githubLink:
+        "https://github.com/muhammedsubhan/react-native-features-permissions",
       image: "images/droidconkereactnative.jpeg",
     },
   ],
