@@ -90,6 +90,16 @@ const Skills = () => {
             name: "Django Rest FrameWork",
             icon: "/icons/djangoREST.png",
           },
+          {
+            id: 17,
+            name: "Node Js",
+            icon: "/icons/node.png",
+          },
+          {
+            id: 18,
+            name: "Express Js",
+            icon: "/icons/express.png",
+          },
         ],
       },
     ],
